@@ -22,7 +22,8 @@ def check():
         else:
             print(current_time + ": Checkra1n IS RELEASED !!!")
     os.remove('index.html')
-    time.sleep(300) #Modify the numeric value (300 by default) to change the time between 2 refresh (in seconds)
+    time.sleep(300)
+    #Modify the numeric value (300 by default) to change the time between 2 refresh (in seconds)
     clear()
 
 while True:
